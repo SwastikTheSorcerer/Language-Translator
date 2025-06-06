@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4d00ff;
+}
+
+.container {
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid gray;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.controls,
+li,
+.icons,
+.icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 10px 15px;
+
+}
+
+.controls .row-from .icons {
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+.controls .row .icons {
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+
+.controls .icons {
+    width: 38%;
+}
+
+.controls .icons i {
+    width: 50px;
+    color: #0a3440;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select {
+    background: none;
+    margin: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.controls .exchange {
+    color: #0a3440;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.container button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: aliceblue;
+    background: #4d00ff;
+    cursor: pointer;
+}
