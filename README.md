@@ -1,4 +1,4 @@
-# 🌐 Simple Language Translator
+# 🌐 Caveman Language Translator
 
 A beginner-friendly web app that lets you translate words and short phrases between languages using a free translation API. Built with **HTML**, **CSS**, and **JavaScript** — no frameworks, no backend.
 
